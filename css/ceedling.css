@@ -1,6 +1,15 @@
 /*!
  * 
  */
+ 
+ /* Font faces */
+@font-face {
+  font-family: 'king';
+  font-style: normal;
+  font-weight: normal;
+  src: local('king'), url('king.otf') format('opentype');
+}
+ 
 .parallax-image {
     width: 100%;
     background: transparent;
@@ -23,7 +32,8 @@ body {
 }
 
 a{
-    font-family: "Times New Roman", Times, serif;
+    /*font-family: "Times New Roman", Times, serif;*/
+    font-family: 'king', cursive;
     color:white;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
@@ -70,7 +80,8 @@ a:active {
 
 .headline h1 {
     font-size: 130px;
-    font-family: 'Dancing Script', cursive;
+    /*font-family: 'Dancing Script', cursive;*/
+    font-family: 'king', cursive;
 }
 
 .headline h2 {
